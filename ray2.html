@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>car nation</title>
+        <link rel="stylesheet"type="style/css" href="style.css"
+    </head>
+        <body>
+            <header>
+             
+            </header>
+            <ul class="navbar" style="background-color: aqua;">
+              <th style="background-color: blue;"><img src="favicon.jpg." width="30%" height="70%">
+                </th>
+              
+            
+            <a href="home.html"target="content of the selected html file">home</a>
+	<a href="about.html"target="content of the selected html file">about</a>
+	 <a href="info.html"target="content of the selected html file">info</a>
+	<a href="contact us.html"target="content of the selected html file">contact us</a>
+</ul>
+<div class="slideshow-container" height="100" width="100">
+    <div class="mySlides">
+      <img src="Screenshot_20230218-164603~3.jpg">
+    </div>
+    <div class="mySlides">
+      <img src="download.jpg">
+    </div>
+    <div class="mySlides">
+      <img src="Screenshot_20230218-164316.jpg">
+    </div>
+    <div class="mySlides">
+        <img src="Screenshot_20230218-164316~3.jpg">
+      </div>
+      <div class="mySlides">
+        <img src="Screenshot_20230218-164603~2.jpg">
+      </div>
+      <div class="mySlides">
+        <img src="Screenshot_20230218-164603~4.jpg">
+      </div>
+      <div class="mySlides">
+        <img src="Screenshot_20230218-164254.jpg">
+        </div>
+        <div class="mySlides">
+            <img src="Screenshot_20230218-164316~2.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Screenshot_20230218-164603.jpg">
+                </div>
+  </div>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 2000); // Change image every 4 seconds
+    }
+  </script></td>
+    </body>
+</html>

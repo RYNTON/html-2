@@ -1,0 +1,15 @@
+nav{
+    color: aqua;
+    background-color: aquamarine
+    height:50px
+}
+nav a{
+    color: beige;
+    padding: 15px;
+    display: inline-block;
+}
+nav a:{
+background-color: beige;
+color: beige;
+}
+
